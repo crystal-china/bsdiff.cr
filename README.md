@@ -1,6 +1,6 @@
 # bsdiff
 
-TODO: Write a description here
+Crystal bindings to [bsdiff](https://github.com/petervas/bsdifflib)
 
 ## Installation
 
