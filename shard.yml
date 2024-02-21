@@ -1,0 +1,12 @@
+name: bsdiff
+version: 0.1.0
+
+authors:
+  - Billy.Zheng <vil963@gmail.com>
+
+scripts:
+  postinstall: make
+
+crystal: '>= 1.11.2'
+
+license: MIT
