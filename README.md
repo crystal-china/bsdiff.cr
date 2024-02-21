@@ -9,7 +9,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      bsdiff:
-       github: zw963/bsdiff
+       github: crystal-china/bsdiff
    ```
 
 2. Run `shards install`
@@ -18,9 +18,9 @@ TODO: Write a description here
 
 ```crystal
 require "bsdiff"
-```
 
-TODO: Write usage instructions here
+Bsdiff.bsdiff("./old_file", "./new_file", "./generated_patch_file")
+```
 
 ## Development
 
