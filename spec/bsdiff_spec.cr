@@ -3,6 +3,10 @@
 require "./spec_helper"
 
 describe Bsdiff do
+  before_all do
+    system("make")
+  end
+
   it "not works" do
     expect_raises Exception, "./spec/files/old_file" do
       Bsdiff.bsdiff("./spec/files/old_file", "./spec/files/new_file", "./spec/files/generated_patch_file")
