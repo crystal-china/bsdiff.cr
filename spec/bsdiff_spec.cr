@@ -1,3 +1,5 @@
+{% skip_file unless flag?(:linux) %}
+
 require "./spec_helper"
 
 describe Bsdiff do
