@@ -22,6 +22,14 @@ require "bsdiff"
 Bsdiff.bsdiff("./old_file", "./new_file", "./generated_patch_file")
 ```
 
+## Apply a Patch File with `bspatch`
+
+```crystal
+require "bspatch"
+
+Bspatch.bspatch("./old_file", "./new_file", "./your_patch_file")
+```
+
 ## Development
 
 TODO: Write development instructions here

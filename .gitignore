@@ -5,7 +5,8 @@
 *.dwarf
 *.o
 *.a
-spec/files/foo.patch
+/spec/files/foo.patch
+/spec/files/updated_foo.gz
 # Libraries don't need dependency lock
 # Dependencies will be locked in applications that use them
 /shard.lock
